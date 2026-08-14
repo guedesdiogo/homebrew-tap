@@ -1,8 +1,8 @@
 class Pleach < Formula
   desc "Parallel, isolated work sessions for multi-repo workspaces"
   homepage "https://github.com/guedesdiogo/pleach"
-  url "https://github.com/guedesdiogo/pleach/archive/refs/tags/v1.2.2.tar.gz"
-  sha256 "d5d772904745c0a6334363308dca409356843b61713f2d6ceb0bf27851e6e434"
+  url "https://github.com/guedesdiogo/pleach/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "25c33d176e4efbd0e227c6e5def3efc259bf83cea05c3cc955563f5c8f015d1f"
   license "MIT"
   head "https://github.com/guedesdiogo/pleach.git", branch: "main"
 
@@ -25,5 +25,9 @@ class Pleach < Formula
     # And the completions it just generated must be valid shell.
     (testpath/"completions.bash").write shell_output("#{bin}/pleach completions bash")
     system "bash", "-n", testpath/"completions.bash"
+
+    # The agent skill is emitted by the binary rather than shipped beside it,
+    # which is precisely what makes a one-file install able to produce it.
+    assert_match "name: pleach", shell_output("#{bin}/pleach skill")
   end
 end
