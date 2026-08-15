@@ -1,8 +1,8 @@
 class Pleach < Formula
   desc "Parallel, isolated work sessions for multi-repo workspaces"
   homepage "https://github.com/guedesdiogo/pleach"
-  url "https://github.com/guedesdiogo/pleach/archive/refs/tags/v1.3.2.tar.gz"
-  sha256 "216c2ef41b07fe9b196d2eccb8bede880960b28cb83965685d733677efd4aa28"
+  url "https://github.com/guedesdiogo/pleach/archive/refs/tags/v1.3.3.tar.gz"
+  sha256 "34b17f112960779f5b52a203c27b2673332046842cbee307ef7fdada280bc7d4"
   license "MIT"
   head "https://github.com/guedesdiogo/pleach.git", branch: "main"
 
