@@ -4,8 +4,8 @@
 class ClaudeSessionRestorer < Formula
   desc "Restore Claude Code sessions in the Claude Desktop Code tab after switching accounts"
   homepage "https://github.com/guedesdiogo/claude-session-restorer"
-  url "https://github.com/guedesdiogo/claude-session-restorer/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "ed4a8809932f5de716643a240c56c5363b04e3157f77180abf5383401500c830"
+  url "https://github.com/guedesdiogo/claude-session-restorer/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "0d6f09bf7353107eba54b82968f744e2f48c5c3d24641989cecb6f7dee5365b8"
   license "MIT"
   head "https://github.com/guedesdiogo/claude-session-restorer.git", branch: "main"
 
