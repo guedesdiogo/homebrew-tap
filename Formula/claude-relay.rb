@@ -4,8 +4,8 @@
 class ClaudeRelay < Formula
   desc "Use several Claude subscriptions as one: account failover and session migration"
   homepage "https://github.com/guedesdiogo/claude-relay"
-  url "https://github.com/guedesdiogo/claude-relay/archive/refs/tags/v2.2.1.tar.gz"
-  sha256 "bd17bd2e02543dac4ea7a2be4b3bcf2c5eff852b638355bc14b8dc2f251bfffd"
+  url "https://github.com/guedesdiogo/claude-relay/archive/refs/tags/v2.2.5.tar.gz"
+  sha256 "1bb080bb0f26d2b1557b4876d17ef49b3ddf1432a87283e0d790b20391eefcbe"
   license "MIT"
   head "https://github.com/guedesdiogo/claude-relay.git", branch: "main"
 
